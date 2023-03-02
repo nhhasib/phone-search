@@ -33,8 +33,6 @@ const phonesData = (phones, limit) => {
                     <img src="${phone.image}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">${phone.phone_name}</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
                     </div>
                     <input onclick="loadPhoneDetails('${phone.slug}')" class="btn btn-primary m-4" id="show-details-btn" type="button" value=" Show Full Details" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>`;
